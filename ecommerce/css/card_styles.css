@@ -1,0 +1,103 @@
+.products-section {
+    background-color: whitesmoke;
+  }
+
+  .item-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2em;
+  }
+  .item-card {
+    height: 570px;
+    background-color: white;
+    width: 375px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 10px 5px 10px 5px;
+    cursor: pointer;
+  }
+  .item-image {
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .item-name {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-left: 15px;
+    margin-top: 1em;
+    align-self: flex-start;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 300px;
+    height: 26px;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  .item-category {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 0.5em;
+    align-self: flex-start;
+    cursor: pointer;
+    color: rgb(55, 55, 55);
+  }
+  .item-price{
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 0.5em;
+    align-self: flex-start;
+    cursor: pointer;
+    color: rgb(55, 55, 55);
+  }
+  
+  .add-to-cart:hover {
+    border: 1px solid #722A1B;
+    padding: 4px 14px;
+    background-color: #fff;
+    color: #722A1B;
+    text-transform: uppercase;
+    float: right;
+    margin: 5px 0;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .item-card:hover {
+    color: #9e3500;
+    transition: ease-in-out 0.2s;
+  }
+
+  .products-section .cart-btn {
+    background: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .products-section .cart-btn:hover {
+    background: #e64a19;
+  }
+
+
+  .product-image {
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
